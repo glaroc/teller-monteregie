@@ -1,0 +1,11 @@
+weight: 9
+name: "Matt_splash"
+layers: "google_satellite"
+background_media : "./img/Matt_sampling.jpeg"
+main_title: "How do forest fragments in the Monteregie affect ecosystem services in nearby agricultural fields?"
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
+menu: true
+pretty_name: "Fragments and fields"

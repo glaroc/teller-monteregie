@@ -1,0 +1,6 @@
+name: "stamen_bw"
+src_type: "L.tileLayer"
+link: "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
+base_layer: false
+options:
+  zIndex: 1

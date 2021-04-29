@@ -1,0 +1,11 @@
+weight: 7
+name: "Carly_results1"
+layers: "google_satellite,carly_map"
+zoom: 14
+lat: 45.1768367
+lng: -73.0845596
+left_title: "Small Woodlots - A key role!"
+left_text: "Small fragments of forest play an important role in regional diversity and carbon storage, making woodlots an important part of conservation in this region."
+left_img: "./img/Carly_team.jpg"
+visible: true
+init_js: "Carly_map.init()"

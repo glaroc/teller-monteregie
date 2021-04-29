@@ -1,0 +1,9 @@
+name: "es_types_fig"
+src_type: "L.svgOverlay"
+link: ""
+base_layer: false
+options : 
+  weight": 10
+  className: "spider"
+  zIndex: 100
+script_src: "./js/radar.js"

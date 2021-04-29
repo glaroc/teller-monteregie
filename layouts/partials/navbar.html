@@ -1,0 +1,9 @@
+<div class="collapse navbar-collapse">
+<ul class="sections-nav navbar-nav">
+{{ range $index, $section := sort .Site.Data.sections "weight" }}
+ {{if $section.menu}}
+	<li class="nav-item nav-{{ $section.name }}" section-name="{{ $section.name }}"><a class="nav-link ml-auto" href="javascript:window.scrollBy(0, $('section[data-scene=\'{{ $section.name }}\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">{{ $section.pretty_name }}</a></li>
+ {{end}}
+{{end}}
+</ul>
+</div>

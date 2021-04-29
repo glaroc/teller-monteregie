@@ -1,0 +1,66 @@
+{{ range $index, $layer := .Site.Data.layers }}
+
+<input type="hidden" class="layers" layer-id="{{$index}}" layer-name="{{$layer.name}}" base-layer="{{$layer.base_layer}}" {{ printf "layer-src=%q" $layer.link | safeHTMLAttr }} layer-type="{{$layer.src_type}}">
+
+{{ range $ind, $opt := $layer.options }}
+<input type="hidden" class="layer-options" layer="{{$layer.name}}" opt-name="{{ $ind }}" opt-value="{{ $opt }}">
+{{end}}
+
+{{ range $ind, $opt := $layer.style }}
+<input type="hidden" class="layer-style" layer="{{$layer.name}}" style-name="{{ $ind }}" style-value="{{ $opt }}">
+{{end}}
+
+{{end}}
+
+{{ range $index, $section := sort .Site.Data.sections "weight" }}
+ {{if $section.visible }}
+  {{ if $section.full_html }}
+   <section class="{{ replaceRE "(\\s)" "_" $section.name }}" data-scene="{{ $section.name }}" layers="{{ $section.layers }}" class="full-html" data-background="{{ $section.background_media }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" init-js="{{ $section.init_js}}">
+    <div class="fullscreen">
+     {{- partial $section.full_html . -}}
+   </div>
+  {{ else }}
+   {{ if $section.main_title}}
+   <section class="{{ replaceRE "(\\s)" "_" $section.name }}"  data-scene="{{ $section.name }}" data-background="{{ $section.background_media }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="" init-js="{{ $section.init_js}}">
+   {{ else }}
+   <section class="{{ replaceRE "(\\s)" "_" $section.name }} left-content"  data-scene="{{ $section.name }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" layers="{{ $section.layers }}" init-js="{{ $section.init_js}}">
+   {{end}}
+   {{ if $section.main_title }}
+	<div class="fullscreen text-center">
+	    <h1 class="display-4 d-flex justify-content-center main-title">{{ $section.main_title | safeHTML}}</h1>
+   		{{ if $section.main_description }}
+	    <span class="subtitle" class="d-flex justify-content-center">{{ $section.main_description }}
+	    </span>
+	    {{end}}
+	</div>
+	{{end}}
+
+  {{ if $section.left_wide }}
+  <div class="left-wide">  
+  {{end}}
+
+   {{ if $section.left_title }}
+    <h2>{{ $section.left_title  | safeHTML}}</h2>
+    {{end}}
+	{{ if $section.left_text }}
+    <p class="medium-text">{{ $section.left_text  | safeHTML}}</p>
+    {{end}}
+	{{ if $section.left_img }}
+    <img src="{{ $section.left_img }}" style="width:100%;padding-top:20px">
+    {{end}}
+	{{ if $section.left_svg_class }}
+    <svg class="{{ $section.left_svg_class }}"></svg>
+    {{end}}
+
+  {{ if $section.left_html }}
+   {{- partial $section.left_html . -}}
+  {{end}}
+
+  {{ if $section.left_wide }}
+  </div>
+  {{end}}
+  {{end}}
+</section>
+{{end}}
+{{end}}
+

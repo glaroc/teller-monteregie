@@ -1,0 +1,13 @@
+weight: 3
+name: "Big Science Question"
+layers: "google_satellite"
+zoom: 9
+lat: 45.6
+lng: -73.8
+left_title: "The Big Science Question"
+left_text: "How are landscape configuration (the amount and location of different patches of habitat) and the provision of multiple ecosystem services linked in this landscape? <br>We will explore four projects that address important aspects of this question."
+left_img: "./img/Picture3.png"
+visible: true
+menu: true
+pretty_name: "The Challenge"
+init_js: "Main_map.init()"

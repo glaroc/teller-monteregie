@@ -1,0 +1,12 @@
+weight: 17
+name: "Dory results1"
+layers: "google_satellite,dory_map"
+background_media : "./img/Bee_Flower.jpeg"
+zoom: 11
+lat: 45.546
+lng: -73.4078
+left_title: "Forest patches as reservoirs of biodiversity"
+left_text: "Forest fragmentation mediates the impact of insect biodiversity on ecosystem services, but even small forest patches were essential reservoirs of biodiversity.<br>Even small forest patches were found to be essential reservoirs for insect biodiversity. Increased forest fragment connectivity reduced arthropod pest control in maple tree stands and mediated edge and canopy effects on insect herbivory."
+left_img: "./img/Dory_Fig2.png"
+visible: true
+init_js: "Dory_map.init()"

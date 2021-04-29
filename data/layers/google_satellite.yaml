@@ -1,0 +1,8 @@
+name: "google_satellite"
+src_type: "L.tileLayer"
+link: "https://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}"
+base_layer: true
+options : 
+  zIndex: 1
+  zoomControl: false
+script_src: "./js/main_map.js"

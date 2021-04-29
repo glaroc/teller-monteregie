@@ -1,0 +1,13 @@
+weight: 8
+name: "Carly_results2"
+layers: ""
+background_media : "./img/Carly_tree.jpeg"
+main_title: " "
+left_title: "Carbon, Management and Biodiversity"
+left_text: "We observed both synergies and tradeoffs between biodiversity and carbon stocks, depending on forest management. Unmanaged forest stands stored less carbon on average than those that were managed (e.g., for maple syrup production), but demonstrated a positive relationship between functional diversity and aboveground carbon stocks. Managed stands exhibited a negative relationship between carbon and tree biodiversity, demonstrating that anthropogenic influence can alter the link between biodiversity and carbon stocks in natural systems. "
+left_wide: true
+left_html: "ziter_fig5.html"
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true

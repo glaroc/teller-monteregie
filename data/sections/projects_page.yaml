@@ -1,0 +1,11 @@
+weight: 4
+name: "Projects"
+layers: "google_satellite"
+full_html: "projects_page.html"
+background_media : "./img/Carly_tree.jpeg"
+lat: 45.6
+lng: -73.3
+zoom: 9
+init_js: "Projects.init()"
+visible: true
+pretty_name: "Projects"

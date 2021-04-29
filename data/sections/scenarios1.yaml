@@ -1,0 +1,12 @@
+weight: 20
+name: "Scenarios1"
+layers: ""
+background_media : "./img/elements-SCENARIO-1.jpg"
+main_title: " "
+left_title: "The Vallée-de-Richelieu Muncipalité Region Comté in the Whole-System Crisis scenario. "
+left_text: "In this scenario an economic crisis drives residential densification while the Asian Long-Horned Beetle (Anoplophora glabripennis) invades, decimating the maple tree populations. Agricultural production shifts to pasture-based livestock, while marginal farmlands are converted to agroforestry. "
+left_wide: true
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true

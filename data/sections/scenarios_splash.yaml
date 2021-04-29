@@ -1,0 +1,12 @@
+weight: 18
+name: "Scenarios_splash"
+layers: ""
+background_media : "./img/Picture1.jpg"
+main_title: "Landscape structure – the different types of land uses and their locations on the landscape – has important and varied effects on ecosystem service provision."
+main_description: "That means that landscape management must take structure into account to effectively manage multiple ecosystem services."
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
+menu: true
+pretty_name: "Solutions"

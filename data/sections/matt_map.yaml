@@ -1,0 +1,11 @@
+weight: 10
+name: "Matt map"
+layers: "google_satellite,matt_map"
+zoom: 10
+lat: 45.7
+lng: -73.2
+left_title: "Study design"
+left_text: "We measured ecosystem services - including crop production, pest regulation, soil fertility, carbon storage, and water quality regulation — at increasing distances from forest fragments in soybean fields."
+left_img: "./img/Notebook.jpeg"
+visible: true
+init_js: "Matt_map.init()"

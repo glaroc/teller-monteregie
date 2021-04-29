@@ -1,0 +1,11 @@
+weight: 5
+name: "Carly_splash"
+layers: "google_satellite"
+background_media : "./img/Carly2.jpg"
+main_title: "How do small forest patches combat biodiversity loss and fight climate change? <br>Can increasing tree biodiversity help Quebec’s woodlots fight climate change?"
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
+menu: true
+pretty_name: "Forests, carbon and biodiversity"

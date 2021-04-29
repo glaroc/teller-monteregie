@@ -1,0 +1,11 @@
+weight: 6
+name: "Carly_map"
+layers: "google_satellite,carly_map"
+zoom: 9
+lat: 45.6
+lng: -73.2
+left_title: "Study design"
+left_text: "We set up linear transects from the edge to interior of 24 different forest patches, and measured tree species and size to calculate tree diversity and carbon stocks."
+left_img: "./img/Carly_tree.jpeg"
+visible: true
+init_js: "Carly_map.init()"

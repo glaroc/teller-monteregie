@@ -1,0 +1,11 @@
+weight: 13
+name: "Kyle map"
+layers: "google_satellite,kyle_map"
+zoom: 10
+lat: 45.4228
+lng: -73.186
+left_title: "Study design"
+left_text: "We studied the pollination of apple, blueberry and raspberry crops by wild bees at 58 orchards in southern Quebec, Canada."
+left_img: "./img/Kyle5.jpeg"
+visible: true
+init_js: "Kyle_map.init()"

@@ -1,0 +1,272 @@
+body {
+    height: 100%;
+    font-family: Montserrat, sans-serif !important;
+    font-size: 14px;
+}
+
+h1{
+  font-family: Montserrat, sans-serif;
+  font-weight:bold !important;
+  padding:50px !important;
+  font-size:2.2em;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 34px);
+  vertical-align: bottom;
+  bottom:0;
+  position:fixed;
+  border:7px solid white;
+}
+
+.projects-item {
+  width: 50%;
+  height: 50%;
+  position:relative;
+  padding:25px;
+  border:7px solid white;
+  background-blend-mode: luminosity;
+}
+
+.projects-item:hover {
+    cursor: pointer;
+    background-color: black;
+    background-blend-mode: normal;
+}
+
+.projects-item:hover h1 {
+    /*background:rgba(50,50,50,1);*/
+}
+
+.project-carly {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/Carly2_small.jpg) no-repeat center center border-box;
+    background-color: #687E34;
+    background-size:cover;
+}
+
+.project-carly:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../img/Carly2_small.jpg) no-repeat center center border-box;
+    background-size:cover;
+}
+
+.project-matt {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/Matt_sampling_small.jpeg) no-repeat center center border-box;
+    background-color: #23395B;
+    background-size:cover;
+}
+
+.project-matt:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../img/Matt_sampling_small.jpeg) no-repeat center center border-box;
+    background-size:cover;
+}
+
+.project-kyle {
+    background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/Kyle6_small.jpeg) no-repeat center center border-box;
+    background-color: #C1AB30;
+    background-size:cover;
+}
+.project-kyle:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../img/Kyle6_small.jpeg) no-repeat center center border-box;
+    background-size:cover;
+}
+
+
+.project-dory {
+    background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/Dory1_small.jpeg) no-repeat center center border-box;
+    background-color: #B35217;
+    background-size:cover;
+}
+.project-dory:hover{
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../img/Dory1_small.jpeg) no-repeat center center border-box;
+    background-size:cover;
+}
+
+
+.projects-item h1{
+    color:white;
+    font-weight:bold;
+    font-size:2em;
+    /*background:rgba(50,50,50,0.8);*/
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .95);
+    padding:7px !important;
+    margin-top:10%;
+}
+
+
+.Big_Science_Question{
+    width:50vw;
+}
+
+.Carly_splash-bg-img h1{
+  margin-top: 30%;
+  font-size:2.2em;
+  font-weight:bold;
+  padding:20px;
+  background: rgba(103, 125, 51, 0.8)
+}
+
+
+.Carly_splash h2{
+  width:100vw;
+  margin-top: 30%;
+  font-size:2.5em;
+  font-weight:bold;
+  padding:20px;
+  background: rgba(103, 125, 51, 0.8)
+}
+
+.Matt_splash-bg-img h1{
+  margin-top: 40%;
+  font-size:2.3em;
+  font-weight:bold;
+  padding:20px;
+  background: rgba(35, 57, 91,0.8)
+}
+
+.Kyle_splash-bg-img h1{
+  margin-top: 35%;
+  font-size:2.3em;
+  font-weight:bold;
+  padding:20px;
+  background: rgba(193, 171, 48,0.85)
+}
+
+.Dory_splash-bg-img h1{
+  margin-top: 35%;
+  font-size:2.3em;
+  font-weight:bold;
+  padding:20px;
+  background: rgba(179, 82, 23, 0.85)
+}
+
+.Scenarios_splash-bg-img h1{
+  margin-top: 10%;
+  font-size:3em;
+  padding:100px;
+  /*background: rgba(128, 55, 55, 0.85)*/
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .95);
+  font-weight:bolder;
+  color:white;
+}
+
+.Scenarios_splash-bg-img .subtitle{
+  color:white;
+  /*background: rgba(128, 55, 55, 0.85);*/
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .95);
+  padding:5px 30px;
+  margin-top:-20px;
+}
+
+
+.Scenarios_desc .left-wide{
+  background:transparent;
+  color:white;
+}
+
+
+.Matt_results1{
+  width:65vw;
+}
+
+.Carly_splash, .Carly_map, .Carly_results1, .Carly_results2 .left-wide {
+  background: #687E34;
+  color:white;
+}
+
+.Matt_splash, .Matt_map, .Matt_results1{
+  background: #23395B;
+  color:white;
+}
+
+.Kyle_splash, .Kyle_map, .Kyle_results1 .left-wide {
+  background: #C1AB30;
+  color:white;
+}
+
+.Kyle_results1{
+  width:50vw;
+}
+
+.Dory_splash, .Dory_map, .Dory_results1{
+  background: #B35217;
+  color:white;
+}
+
+.Scenarios_splash, .Scenarios1, .Scenarios2, .Scenarios3, .Scenarios4 {
+  color:black;
+}
+
+
+.Dory_results1{
+  width:45vw;
+}
+
+
+.nav-Projects{
+  background: #333333;
+  padding:0px 5px;
+  height:34px;
+}
+
+.nav-Carly_splash{
+  background: #687E34;
+  padding:0px 5px;
+  height:34px;
+}
+
+.nav-Matt_splash{
+  background: #23395B;
+  padding:0px 5px;
+  height:34px;
+}
+
+.nav-Kyle_splash{
+  background: #C1AB30;
+  padding:0px 5px;
+  height:34px;
+}
+
+.nav-Dory_splash{
+  background: #B35217;
+  padding:0px 5px;
+  height:34px;
+}
+
+.nav-Scenarios_splash{
+  background: #803737;
+  padding:0px 5px;
+  height:34px;
+}
+
+.navbar-nav{
+  right:0;
+  position:fixed;
+}
+
+.awesome-marker i {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.legend{
+  background:rgba(255,255,255,0.5);
+  border-radius:5px;
+  color:black;
+  margin-top:50px !important;
+  padding-top:10px;
+}
+
+.legend li{
+  list-style-type: none;
+  margin-left:-30px;
+  margin-right:20px;
+}
+
+.legend ul{
+  margin-bottom:0 !important;
+}
+.legend img{
+  margin-bottom:-25px;
+}

@@ -1,0 +1,12 @@
+weight: 12
+name: "Kyle_splash"
+layers: "google_satellite"
+background_media : "./img/Kyle6.jpeg"
+main_title: "Do wild bees promote pollination and fruit production in orchards? <br>Which near-orchard habitats are most important for apple-pollinating bees?"
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
+init_js: "Kyle_map.init()"
+menu: true
+pretty_name: "Bees and orchards"

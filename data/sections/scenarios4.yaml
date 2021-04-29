@@ -1,0 +1,12 @@
+weight: 24
+name: "Scenarios4"
+layers: ""
+background_media : "./img/elements-SCENARIO-4.jpg"
+main_title: " "
+left_title: "The Demand For Energy scenario."
+left_text: "In this scenario shale gas development expands, resulting in farmland loss, while urban and residential development is limited. Wind power installations are also developed."
+left_wide: true
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true

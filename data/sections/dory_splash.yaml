@@ -1,0 +1,11 @@
+weight: 15
+name: "Dory_splash"
+layers: "google_satellite"
+background_media: "./img/Dory1_wide.jpeg"
+main_title: "How does forest fragmentation affect insect biodiversity in the treetops, and what are the consequences for ecosystem services in forest patches?"
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
+menu: true
+pretty_name: "Insects in treetops"

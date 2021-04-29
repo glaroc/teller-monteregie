@@ -1,0 +1,16 @@
+name: "kyle_map"
+src_type: "L.geoJson.ajax"
+link: "https://cartodb.ecoconnect.net/user/resnet-admin/api/v2/sql?q=SELECT * FROM martinsetal2018ea_1&api_key=_mn4R8PisfU7Y-3lBWmHMw&format=geojson"
+base_layer: false
+options : 
+  weight: 3
+  opacity: 0.2
+  zIndex: 999
+style: 
+  opacity: 0.2
+  fillOpacity: 0.3
+  color: '#99c63d'
+  fillColor: '#99c63d'
+  stroke: true
+  strokeOpacity: 1
+script_src: "./js/kyle_map.js"

@@ -1,0 +1,12 @@
+weight: 21
+name: "Scenarios2"
+layers: ""
+background_media : "./img/elements-SCENARIO-2.jpg"
+main_title: " "
+left_title: "The Periurban Development scenario."
+left_text: "In this scenario increased residential growth drives loss of farmland and forests, resulting in loss of landscape connectivity and agricultural production in certain areas."
+left_wide: true
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true
