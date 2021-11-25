@@ -67,6 +67,7 @@
     left: 0;
     content: '';
     background-color: rgba(0,0,0,0.15);
+    z-index:-1;
 }
 
 .photo-text {
@@ -114,4 +115,13 @@ section.viewing.left-content {
 
 .storymap-scroll-down{
     width:30%;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    padding: 5px;
+    font-weight:bold;
+    font-size:16px;
 }

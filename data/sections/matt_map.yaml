@@ -9,3 +9,4 @@ left_text: "We measured ecosystem services - including crop production, pest reg
 left_img: "./img/Notebook.jpeg"
 visible: true
 init_js: "Matt_map.init()"
+attribution: "Photo credits: Alex Tran"

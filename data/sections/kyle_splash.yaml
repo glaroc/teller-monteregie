@@ -10,3 +10,5 @@ visible: true
 init_js: "Kyle_map.init()"
 menu: true
 pretty_name: "Bees and orchards"
+attribution: "Photo credits: Alex Tran"
+main_description: "With <a href='https://www.habitat-nature.com/our-team' target='_blank'>Kyle Martins</a>"

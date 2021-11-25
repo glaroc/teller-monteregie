@@ -27,14 +27,17 @@
    {{end}}
    {{ if $section.main_title }}
 	<div class="fullscreen text-center">
-	    <h1 class="display-4 d-flex justify-content-center main-title">{{ $section.main_title | safeHTML}}</h1>
+	    <h1 class="display-4 d-flex justify-content-center main-title">
+      {{ $section.main_title | safeHTML}}</h1>
    		{{ if $section.main_description }}
-	    <span class="subtitle" class="d-flex justify-content-center">{{ $section.main_description }}
+	    <span class="subtitle" class="d-flex justify-content-center">{{ $section.main_description | safeHTML}}
+        {{ if $section.main_img }}
+          <div class="main-img"></div>
+        {{end}}
 	    </span>
 	    {{end}}
 	</div>
 	{{end}}
-
   {{ if $section.left_wide }}
   <div class="left-wide">  
   {{end}}
@@ -59,6 +62,9 @@
   {{ if $section.left_wide }}
   </div>
   {{end}}
+  {{end}}
+  {{ if $section.attribution }}
+  <div class="attribution">{{ $section.attribution }}</div>
   {{end}}
 </section>
 {{end}}

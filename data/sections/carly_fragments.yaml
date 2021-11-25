@@ -9,3 +9,4 @@ left_text: "Small fragments of forest play an important role in regional diversi
 left_img: "./img/Carly_team.jpg"
 visible: true
 init_js: "Carly_map.init()"
+attribution: "Photo credits: Alex Tran"

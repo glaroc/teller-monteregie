@@ -1,12 +1,13 @@
-weight: 21
+weight: 23
 name: "Scenarios3"
 layers: ""
-background_media : "./img/elements-SCENARIO-3.jpg"
+background_media : "./img/elements-SCENARIO-1.jpg"
 main_title: " "
-left_title: "The Green Development scenario."
-left_text: "Here there is a shift toward sustainable development, where renewable energy, green tramways, green corridors, protected areas, and agriculture that incorporates agroforestry principles are emphasized."
+left_title: "The Periurban Development scenario."
+left_text: "In this scenario increased residential growth drives loss of farmland and forests, resulting in loss of landscape connectivity and agricultural production in certain areas."
 left_wide: true
 zoom: 10
 lat: 45.6
 lng: -73.2
 visible: true
+attribution: "Used with permission of the artist, Denis Bainville"

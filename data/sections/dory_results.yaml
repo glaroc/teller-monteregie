@@ -6,7 +6,7 @@ zoom: 11
 lat: 45.546
 lng: -73.4078
 left_title: "Forest patches as reservoirs of biodiversity"
-left_text: "Forest fragmentation mediates the impact of insect biodiversity on ecosystem services, but even small forest patches were essential reservoirs of biodiversity.<br>Even small forest patches were found to be essential reservoirs for insect biodiversity. Increased forest fragment connectivity reduced arthropod pest control in maple tree stands and mediated edge and canopy effects on insect herbivory."
+left_text: "Forest fragmentation mediates the impact of insect biodiversity on ecosystem services, but even small forest patches were essential reservoirs of biodiversity.<br>Small forest patches were found to be essential reservoirs for insect biodiversity. Increased forest fragment connectivity reduced arthropod pest control in maple tree stands and mediated edge and canopy effects on insect herbivory.<br><a href='https://doi.org/10.1371/journal.pone.0150843' target='_blank'>Link to scientific article</a>"
 left_img: "./img/Dory_Fig2.png"
 visible: true
 init_js: "Dory_map.init()"

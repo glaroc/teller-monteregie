@@ -1,13 +1,11 @@
 weight: 3
-name: "Big Science Question"
-layers: "google_satellite"
+name: "Big_Science_Question"
+layers: "google_satellite,carly_map,kyle_map,matt_map,dory_map"
 zoom: 9
 lat: 45.6
 lng: -73.8
 left_title: "The Big Science Question"
-left_text: "How are landscape configuration (the amount and location of different patches of habitat) and the provision of multiple ecosystem services linked in this landscape? <br>We will explore four projects that address important aspects of this question."
+left_text: "How are landscape configuration (the amount and location of different patches of habitat) and the provision of multiple ecosystem services linked in this landscape? <br><br>The map shows the location of sampling sites for four projects that each address important aspects of this question.<br><br>Scroll down to explore each of those projects!"
 left_img: "./img/Picture3.png"
 visible: true
-menu: true
-pretty_name: "The Challenge"
-init_js: "Main_map.init()"
+init_js: "Carly_map.init();Matt_map.init();Kyle_map.init();Dory_map.init();Main_map.init();"

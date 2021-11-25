@@ -5,7 +5,7 @@ zoom: 12
 lat: 45.7
 lng: -73.35
 left_title: "Ecosystem services, distance from forests and isolation"
-left_text: "Ecosystem services were affected by both distance-from-forest and the degree forest fragments were isolated from other woodlots, highlighting the importance of actively managing forest fragments and their location on the landscape to increase the multiple benefits of these woodlots for agricultural landscapes.<br>Both the isolation of forest fragments on the landscape and distance of a field from forest fragments had significant effects on the provision of ecosystem services. Each ecosystem service showed its own distinct pattern of provision as landscape structure varied, thus providing evidence that landscape heterogeneity — the variety of forest and field types present in the landscape — is critical to ensure the provision of multiple ecosystem services."
+left_text: " Ecosystem services were affected by both distance-from-forest and the degree to which the forest fragment was isolated from other woodlots. This highlights the importance of actively managing forest fragments and considering location on the landscape to increase the multiple benefits of woodlots in agricultural landscapes.<br><br>Each ecosystem service showed its own distinct pattern of provision as landscape structure varied, thus providing evidence that landscape heterogeneity — the variety of forest and field types present in the landscape — is critical to ensure the provision of multiple ecosystem services.<br><a href='https://doi.org/10.1007/s00442-014-3061-0' target='_blank'>Link to scientific article</a>"
 left_img: "./img/Matt_fig2.jpg"
 visible: true
 init_js: "Matt_map.init()"

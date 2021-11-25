@@ -1,5 +1,0 @@
-baseURL = ""
-languageCode = "en-us"
-title = "Carbon"
-theme = "teller"
-themesDir = "../.."

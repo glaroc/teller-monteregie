@@ -7,8 +7,9 @@ zoom: 12
 lat: 45.4596
 lng: -72.9876
 left_title: "Bees play a key role in orchards"
-left_text: "The amount of apples produced and the number of seeds in those apples increases with the functional diversity of bees. Conserving wild bee habitats near orchards can help secure crop pollination.<br><br>Apple fruit set and seed set in orchards increased with bee diversity. Complementarity between managed and unmanaged bees drove this relationship. Orchards with bee habitats (meadows, forests) nearby had higher bee diversity when crops were in bloom."
+left_text: "The amount of apples produced and the number of seeds in those apples increased with increasing functional diversity of bees. Conserving wild bee habitats near orchards can help secure crop pollination by encouraging a greater diversity of bees.<br><br> Apple fruit set and seed set was higher in orchards high more bee diversity. Complementarity between managed and unmanaged bees drove this relationship. Orchards with bee habitats (meadows, forests) nearby had higher bee diversity when crops were in bloom.<br><a href='https://doi.org/10.1016/j.agee.2014.10.018' target='_blank'>Link to scientific article</a>"
 left_img: "./img/Kyle_fig3.png"
 left_wide: true
 visible: true
 left_html: ""
+attribution: "Photo credits: Alex Tran"

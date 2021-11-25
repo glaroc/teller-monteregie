@@ -1,8 +1,8 @@
 weight: 1
 name: "splash"
 layers: "google_satellite"
-background_media : "./img/La_Monteregie_vue_des_airs.mp4"
-main_title: "Biodiversity, Forests and Ecosystem Services in the Montérégie"
+background_media : "../img/Mont-St-Hilaire_short2.mp4"
+main_title: "Montérégie Connection: Ecosystem services in an agricultural landscape"
 zoom: 2
 lat: 45.6
 lng: -73.8

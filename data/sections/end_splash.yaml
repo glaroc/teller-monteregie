@@ -1,0 +1,11 @@
+weight: 25
+name: "End_splash"
+layers: "google_satellite"
+background_media : "./img/Picture1.jpg"
+main_title: "What's next?"
+main_description: "We're pursuing these questions and more in a series of working landscapes across Canada. You can learn more about NSERC ResNet, at <a href='https://nsercresnet.ca' target='_blank'>nsercresnet.ca</a>"
+main_img: "./img/resnet-logo.jpeg"
+zoom: 10
+lat: 45.6
+lng: -73.2
+visible: true

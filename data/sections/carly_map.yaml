@@ -9,3 +9,4 @@ left_text: "We set up linear transects from the edge to interior of 24 different
 left_img: "./img/Carly_tree.jpeg"
 visible: true
 init_js: "Carly_map.init()"
+attribution: "Photo credits: Alex Tran"

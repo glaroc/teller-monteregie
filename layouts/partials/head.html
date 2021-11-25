@@ -16,7 +16,7 @@
     <!--Font-->
     <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="./css/storymap.2.5.css">
+    <link rel="stylesheet" type="text/css" href="../css/storymap.2.5.css">
 
     <!--add required libraries-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
@@ -31,7 +31,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
 
     <!-- MAKI icons -->
-    <script src="./js/maki-markers/Leaflet.MakiMarkers.js"></script>
+    <script src="../../js/maki-markers/Leaflet.MakiMarkers.js"></script>
 
 	<!-- D3 GRAPHS -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel='stylesheet' type='text/css'>
@@ -39,28 +39,28 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
 		
     <!-- Plotly -->
-    <script src="./js/lib/htmlwidgets-1.5.3/htmlwidgets.js"></script>
-    <script src="./js/lib/plotly-binding-4.9.2.1/plotly.js"></script>
-    <script src="./js/lib/typedarray-0.1/typedarray.min.js"></script>
-    <link href="./js/lib/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
-    <script src="./js/lib/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
-    <link href="./js/lib/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
-    <script src="./js/lib/plotly-main-1.52.2/plotly-latest.min.js"></script>
+    <script src="../../js/lib/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+    <script src="../../js/lib/plotly-binding-4.9.2.1/plotly.js"></script>
+    <script src="../../js/lib/typedarray-0.1/typedarray.min.js"></script>
+    <link href="../../js/lib/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+    <script src="../../js/lib/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+    <link href="../../js/lib/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
+    <script src="../../js/lib/plotly-main-1.52.2/plotly-latest.min.js"></script>
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./js/awesome-markers/leaflet.awesome-markers.css">
-    <script src="./js/awesome-markers/leaflet.awesome-markers.js"></script>
+    <script src="../../js/awesome-markers/leaflet.awesome-markers.js"></script>
 
 	<!--story map plugin-->
-    <script src="./js/storymap.2.5.js"></script>
+    <script src="../../js/storymap.2.5.js"></script>
 
 <!--link href="{{ "css/custom.css" | relURL}}" rel="stylesheet"-->
-<link href="css/custom.css" rel="stylesheet">
+<link href="../../css/custom.css" rel="stylesheet">
 
-<link href="css/monteregie.css" rel="stylesheet">
+<link href="../../css/monteregie.css" rel="stylesheet">
 
 <!--script src="{{ "js/main.js" | relURL}}"></script-->
-<script src="./js/map-story.js"></script>
+<script src="../../js/map-story.js"></script>
 
 {{ range $index, $layer := sort .Site.Data.layers "weight" }}
 

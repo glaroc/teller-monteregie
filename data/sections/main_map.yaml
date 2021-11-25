@@ -1,11 +1,13 @@
 weight: 2
-name: "The Montérégie"
+name: "The_Monteregie"
 layers: "google_satellite,monteregie_municipalities"
 zoom: 9
 lat: 45.6
 lng: -73.8
 left_title: "The Montérégie. A conservation challenge."
-left_text: "The Land use and Development Plan (PMAD) of the Communauté Métropoliaine de Montréal (CMM) calls for the conservation of 17 percent of greater Montreal to maintain biodiversity.<br>Which green spaces should be conserved or restored to get the most benefit? "
+left_text: "The Land use and Development Plan (<a href='https://cmm.qc.ca/planification/plan-metropolitain-damenagement-et-de-developpement-pmad/' target='_blank'>PMAD</a>) of the Communauté Métropoliaine de Montréal (CMM) calls for the conservation of 17 percent of greater Montreal to maintain biodiversity.<br><br>Which green spaces should be conserved or restored to get the most benefit?"
 left_img: "./img/1571255-10-ans-population-banlieues-auto.jpg"
 visible: true
 init_js: "Monteregie_map.init()"
+menu: true
+pretty_name: "The Challenge"

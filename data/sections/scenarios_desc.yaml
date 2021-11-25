@@ -4,10 +4,12 @@ layers: ""
 background_media : "./img/Picture1.jpg"
 main_title: " "
 left_title: "Scenario development"
-left_text: "But what does this mean for the future of the region? The landscape structure-ecosystem service relationships are complex, and the implications, and outcomes of different management strategies are not always immediately obvious. Scenarios – sets of stories about possible futures for a region – can be helpful for exploring these outcomes.e worked with key local stakeholders, including the Union de Producteurs Agricole, the Chambre de Commerce, the Centre de la Nature de Mont Saint Hilaire, Ouranos, Nature Action Québec, and more, to explore possible futures. "
-left_img: "./img/Scenario_meeting3.png"
+left_text: "But what does this mean for the future of the region? The landscape structure-ecosystem service relationships are complex, and the implications, and outcomes of different management strategies are not always immediately obvious.<br><br> Scenarios – sets of stories about possible futures for a region – can be helpful for exploring these outcomes. We worked with key local stakeholders, including the Union de Producteurs Agricole, the Chambre de Commerce, the Centre de la Nature de Mont Saint Hilaire, Ouranos, Nature Action Québec, and more, to explore possible futures for this region and the outcomes for ecosystem services."
+left_img: "./img/Scenario-building.jpeg"
 left_wide: true
 zoom: 10
 lat: 45.6
 lng: -73.2
 visible: true
+menu: true
+pretty_name: "Scenarios"
