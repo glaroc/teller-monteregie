@@ -1,8 +1,9 @@
 weight: 1
 name: "splash"
 layers: "google_satellite"
-background_media : "../img/Mont-St-Hilaire_short2.mp4"
+background_media : "../../img/Mont-St-Hilaire_short2.mp4"
 main_title: "Montérégie Connection: Ecosystem services in an agricultural landscape"
+main_title_fr: "Connexion Montérégie: Les services écosystémiques dans un paysage agricole"
 zoom: 2
 lat: 45.6
 lng: -73.8

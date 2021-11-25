@@ -9,7 +9,7 @@
           });
       });
   }
-  getScripts(["./js/map-story.js"], function () {
+  getScripts(["js/map-story.js"], function () {
     var h = $(window).height();
     MapZ.init();
   });

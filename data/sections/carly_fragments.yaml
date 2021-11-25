@@ -5,8 +5,10 @@ zoom: 14
 lat: 45.1768367
 lng: -73.0845596
 left_title: "Small Woodlots - A key role!"
+left_title_fr: "Petits boisés - Un rôle clé!"
 left_text: "Small fragments of forest play an important role in regional diversity and carbon storage, making woodlots an important part of conservation in this region."
-left_img: "./img/Carly_team.jpg"
+left_text_fr: "De petits fragments de forêt jouent un rôle important dans la diversité régionale et le stockage du carbone, faisant des boisés un élément important de la conservation dans cette région."
+left_img: "../../img/Carly_team.jpg"
 visible: true
 init_js: "Carly_map.init()"
 attribution: "Photo credits: Alex Tran"

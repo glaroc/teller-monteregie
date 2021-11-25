@@ -5,3 +5,4 @@ languages:
   fr:
     languageName: Français
     weight: 2
+relativeURLs: true

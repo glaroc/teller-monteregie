@@ -17,7 +17,11 @@
   {{ if $section.full_html }}
    <section class="{{ replaceRE "(\\s)" "_" $section.name }}" data-scene="{{ $section.name }}" layers="{{ $section.layers }}" class="full-html" data-background="{{ $section.background_media }}" lat="{{ $section.lat }}" lng="{{ $section.lng }}" zoom="{{ $section.zoom }}" init-js="{{ $section.init_js}}">
     <div class="fullscreen">
-     {{- partial $section.full_html . -}}
+     {{ if eq $.Language.Lang "fr"}}
+      {{- partial $section.full_html_fr . -}}
+     {{else}}
+          {{- partial $section.full_html . -}}
+     {{end}}
    </div>
   {{ else }}
    {{ if $section.main_title}}
@@ -28,9 +32,19 @@
    {{ if $section.main_title }}
 	<div class="fullscreen text-center">
 	    <h1 class="display-4 d-flex justify-content-center main-title">
-      {{ $section.main_title | safeHTML}}</h1>
+      {{ if eq $.Language.Lang "fr"}}
+        {{ $section.main_title_fr | safeHTML}}
+      {{ else }}
+        {{ $section.main_title | safeHTML}}
+      {{end}}
+      </h1>
    		{{ if $section.main_description }}
-	    <span class="subtitle" class="d-flex justify-content-center">{{ $section.main_description | safeHTML}}
+	    <span class="subtitle" class="d-flex justify-content-center">
+        {{ if eq $.Language.Lang "fr"}}
+          {{ $section.main_description_fr | safeHTML}}
+        {{ else }}
+          {{ $section.main_description | safeHTML}}
+        {{ end }} 
         {{ if $section.main_img }}
           <div class="main-img"></div>
         {{end}}
@@ -43,10 +57,22 @@
   {{end}}
 
    {{ if $section.left_title }}
-    <h2>{{ $section.left_title  | safeHTML}}</h2>
+    <h2>
+    {{ if eq $.Language.Lang "fr"}}
+      {{ $section.left_title_fr  | safeHTML}}
+    {{ else }}
+      {{ $section.left_title  | safeHTML}}
+    {{ end }}
+    </h2>
     {{end}}
 	{{ if $section.left_text }}
-    <p class="medium-text">{{ $section.left_text  | safeHTML}}</p>
+    <p class="medium-text">
+    {{ if eq $.Language.Lang "fr"}}
+      {{ $section.left_text_fr  | safeHTML}}
+    {{ else }}
+      {{ $section.left_text  | safeHTML}}
+    {{ end }}
+    </p>
     {{end}}
 	{{ if $section.left_img }}
     <img src="{{ $section.left_img }}" style="width:100%;padding-top:20px">

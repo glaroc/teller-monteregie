@@ -1,7 +1,19 @@
 <div id="app" class="projects-container">
   <div class="projects-item project-carly" scene-name="Carly_splash">
-  	<h1>How do small forest patches combat biodiversity loss and fight climate change?</h1>
-    <span class="projects-author">With Carly Ziter</span>
+  	<h1>{{ $.Language | safeHTML }}
+    {{ if eq .Language.Lang "fr"}}
+      Comment les petites parcelles forestières luttent-elles contre la perte de biodiversité et le changement climatique ?
+    {{ else }}
+      How do small forest patches combat biodiversity loss and fight climate change?
+    {{ end }}
+    </h1>
+    <span class="projects-author">
+    {{ if eq .Language.Lang "fr"}}
+      Avec
+    {{else}}
+      With
+    {{end}}
+    Carly Ziter</span>
   </div>
   <div class="projects-item project-matt" scene-name="Matt_splash">
   	<h1>How do forest fragments in the Monteregie affect ecosystem services in nearby agricultural fields?</h1>

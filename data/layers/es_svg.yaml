@@ -6,4 +6,4 @@ options :
   weight": 10
   className: "spider"
   zIndex: 100
-script_src: "./js/radar.js"
+script_src: "../../js/radar.js"

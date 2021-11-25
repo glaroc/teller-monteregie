@@ -2,4 +2,4 @@ name: "projects"
 src_type: "L.tileLayer"
 link: ""
 base_layer: false
-script_src: "./js/projects.js"
+script_src: "../../js/projects.js"
