@@ -5,8 +5,11 @@ zoom: 10
 lat: 45.7
 lng: -73.2
 left_title: "Study design"
+left_title_fr: "Plan d'étude."
 left_text: "We measured ecosystem services - including crop production, pest regulation, soil fertility, carbon storage, and water quality regulation — at increasing distances from forest fragments in soybean fields."
-left_img: "./img/Notebook.jpeg"
+left_text_fr: "Nous avons mesuré les services écosystémiques - y compris la production agricole, la régulation des ravageurs, la fertilité des sols, le stockage du carbone et la régulation de la qualité de l'eau - à des distances croissantes des fragments de forêt dans les champs de soja.
+"
+left_img: "../img/Notebook.jpeg"
 visible: true
 init_js: "Matt_map.init()"
 attribution: "Photo credits: Alex Tran"

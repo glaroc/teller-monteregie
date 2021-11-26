@@ -8,7 +8,7 @@ left_title: "Study design"
 left_title_fr: "Plan d'étude"
 left_text: "We set up linear transects from the edge to interior of 24 different forest patches, and measured tree species and size to calculate tree diversity and carbon stocks."
 left_text_fr: "Nous avons mis en place des transects linéaires du bord à l'intérieur de 24 parcelles forestières différentes, et nous avons mesuré les espèces et la taille des arbres pour calculer leur diversité et les stocks de carbone."
-left_img: "../../img/Carly_tree.jpeg"
+left_img: "../img/Carly_tree.jpeg"
 visible: true
 init_js: "Carly_map.init()"
 attribution: "Photo credits: Alex Tran"

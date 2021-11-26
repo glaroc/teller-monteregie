@@ -1,10 +1,12 @@
 weight: 23
 name: "Scenarios3"
 layers: ""
-background_media : "./img/elements-SCENARIO-1.jpg"
+background_media : "../img/elements-SCENARIO-1.jpg"
 main_title: " "
 left_title: "The Periurban Development scenario."
+left_title_fr: "Le scénario de développement périurbain"
 left_text: "In this scenario increased residential growth drives loss of farmland and forests, resulting in loss of landscape connectivity and agricultural production in certain areas."
+left_text_fr: "Dans ce scénario, la croissance résidentielle accrue entraîne la perte de terres agricoles et de forêts, entraînant une perte de connectivité du paysage et de la production agricole dans certaines zones."
 left_wide: true
 zoom: 10
 lat: 45.6

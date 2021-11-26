@@ -1,7 +1,7 @@
 weight: 5
 name: "Carly_splash"
 layers: "google_satellite"
-background_media : "../../img/Carly2.jpg"
+background_media : "../img/Carly2.jpg"
 main_title: "How do small forest patches combat biodiversity loss and fight climate change?"
 main_title_fr: "Comment les petites parcelles forestières luttent-elles contre la perte de biodiversité et le changement climatique ?"
 zoom: 10
@@ -13,3 +13,4 @@ pretty_name: "Forests, carbon and biodiversity"
 pretty_name_fr: "Forêts, carbone et biodiversité"
 attribution: "Photo credits: Alex Tran"
 main_description: "With <a href='https://www.concordia.ca/artsci/biology/faculty.html?fpid=carly-ziter' target='_blank'>Carly Ziter</a>"
+main_description_fr: "Avec <a href='https://www.concordia.ca/artsci/biology/faculty.html?fpid=carly-ziter' target='_blank'>Carly Ziter</a>"

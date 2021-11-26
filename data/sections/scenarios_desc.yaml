@@ -1,11 +1,13 @@
 weight: 19
 name: "Scenarios_desc"
 layers: ""
-background_media : "./img/Picture1.jpg"
+background_media : "../img/Picture1.jpg"
 main_title: " "
 left_title: "Scenario development"
+left_title_fr: "Développement de scénario"
 left_text: "But what does this mean for the future of the region? The landscape structure-ecosystem service relationships are complex, and the implications, and outcomes of different management strategies are not always immediately obvious.<br><br> Scenarios – sets of stories about possible futures for a region – can be helpful for exploring these outcomes. We worked with key local stakeholders, including the Union de Producteurs Agricole, the Chambre de Commerce, the Centre de la Nature de Mont Saint Hilaire, Ouranos, Nature Action Québec, and more, to explore possible futures for this region and the outcomes for ecosystem services."
-left_img: "./img/Scenario-building.jpeg"
+left_text_fr: "Mais qu'est-ce que cela signifie pour l'avenir de la région ? Les relations entre la structure du paysage et les services écosystémiques sont complexes, et les implications et les résultats des différentes stratégies de gestion ne sont pas toujours immédiatement évidents. Les scénarios – des séries d'histoires sur les futurs possibles d'une région – peuvent être utiles pour explorer ces résultats. Nous avons travaillé vec des intervenants locaux clés, y compris l'Union de Producteurs Agricole, la Chambre de Commerce, le Centre de la Nature de Mont Saint Hilaire, Ouranos, Nature Action Québec, et plus, pour explorer les futurs possibles pour cette région et les résultats pour l'écosystème prestations de service."
+left_img: "../img/Scenario-building.jpeg"
 left_wide: true
 zoom: 10
 lat: 45.6
@@ -13,3 +15,4 @@ lng: -73.2
 visible: true
 menu: true
 pretty_name: "Scenarios"
+pretty_name_fr: "Scénarios"

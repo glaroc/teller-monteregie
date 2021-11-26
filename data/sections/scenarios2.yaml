@@ -1,10 +1,12 @@
 weight: 24
 name: "Scenarios2"
 layers: ""
-background_media : "./img/elements-SCENARIO-4.jpg"
+background_media : "../img/elements-SCENARIO-4.jpg"
 main_title: " "
 left_title: "The Green Development scenario."
+left_title_fr: "Le scénario du développement vert"
 left_text: "Here there is a shift toward sustainable development, where renewable energy, green tramways, green corridors, protected areas, and agriculture that incorporates agroforestry principles are emphasized."
+left_text_fr: "Ici, il y a un virage vers le développement durable, où les énergies renouvelables, les tramways verts, les couloirs verts, les zones protégées et l'agriculture qui intègre les principes de l'agroforesterie sont mis en avant."
 left_wide: true
 zoom: 10
 lat: 45.6

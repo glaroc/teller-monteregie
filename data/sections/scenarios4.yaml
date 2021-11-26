@@ -1,10 +1,12 @@
 weight: 22
 name: "Scenarios4"
 layers: ""
-background_media : "./img/elements-SCENARIO-2.jpg"
+background_media : "../img/elements-SCENARIO-2.jpg"
 main_title: " "
 left_title: "The Demand For Energy scenario."
+left_title_fr: "Le scénario de la demande d'énergie."
 left_text: "In this scenario shale gas development expands, resulting in farmland loss, while urban and residential development is limited. Wind power installations are also developed."
+left_text_fr: "Dans ce scénario, le développement du gaz de schiste s'étend, entraînant une perte de terres agricoles, tandis que le développement urbain et résidentiel est limité. Des installations éoliennes sont également développées."
 left_wide: true
 zoom: 10
 lat: 45.6

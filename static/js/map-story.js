@@ -9,6 +9,13 @@ var MapZ = {
     init: function(){
         var self=this
         this.createMap();
+        if($(window).width()<1441){
+            if($('#language').val()=="fr"){
+                $(".navbar-brand").text("Connexion Montérégie")
+            }else{
+                $(".navbar-brand").text("Montérégie Connection")
+            }
+        }
     },   
 
     createMap: function(){

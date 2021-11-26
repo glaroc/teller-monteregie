@@ -1,7 +1,7 @@
 weight: 8
 name: "Carly_results2"
 layers: ""
-background_media : "../../img/Carly_tree.jpeg"
+background_media : "../img/Carly_tree.jpeg"
 main_title: " "
 left_title: "Carbon, Management and Biodiversity"
 left_title_fr: "Carbone, gestion et biodiversité"

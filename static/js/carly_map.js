@@ -17,7 +17,12 @@ var Carly_map = {
 
 		  onAdd: function (map) {
 		          this._div = L.DomUtil.create('div', 'carly-legend legend');
-		          this._div.innerHTML = '<ul><li><img src="https://api.mapbox.com/v4/marker/pin-m-logging+687E34.png?access_token=pk.eyJ1IjoiZ2xhcm9jIiwiYSI6InJPQ0d5Nk0ifQ.LPiEFZJ_-jI33kmjqwvNqA" alt="" tabindex="0">Managed</li><li><img src="https://api.mapbox.com/v4/marker/pin-m-park+23395B.png?access_token=pk.eyJ1IjoiZ2xhcm9jIiwiYSI6InJPQ0d5Nk0ifQ.LPiEFZJ_-jI33kmjqwvNqA" alt="" tabindex="0">Not managed</li></ul>'
+		          if($('#language').val()=='fr'){
+		          	this._div.innerHTML = '<ul><li><img src="https://api.mapbox.com/v4/marker/pin-m-logging+687E34.png?access_token=pk.eyJ1IjoiZ2xhcm9jIiwiYSI6InJPQ0d5Nk0ifQ.LPiEFZJ_-jI33kmjqwvNqA" alt="" tabindex="0">Aménagé</li><li><img src="https://api.mapbox.com/v4/marker/pin-m-park+23395B.png?access_token=pk.eyJ1IjoiZ2xhcm9jIiwiYSI6InJPQ0d5Nk0ifQ.LPiEFZJ_-jI33kmjqwvNqA" alt="" tabindex="0">Non-aménagé</li></ul>'	
+		          }else{
+		          	this._div.innerHTML = '<ul><li><img src="https://api.mapbox.com/v4/marker/pin-m-logging+687E34.png?access_token=pk.eyJ1IjoiZ2xhcm9jIiwiYSI6InJPQ0d5Nk0ifQ.LPiEFZJ_-jI33kmjqwvNqA" alt="" tabindex="0">Managed</li><li><img src="https://api.mapbox.com/v4/marker/pin-m-park+23395B.png?access_token=pk.eyJ1IjoiZ2xhcm9jIiwiYSI6InJPQ0d5Nk0ifQ.LPiEFZJ_-jI33kmjqwvNqA" alt="" tabindex="0">Not managed</li></ul>'		          	
+		          }
+
 		          /*L.DomEvent.on(this._div, "click", this._click )*/
 		          map.legend = this;
 		          return this._div;          

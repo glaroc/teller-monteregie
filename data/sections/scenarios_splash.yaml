@@ -1,12 +1,15 @@
 weight: 18
 name: "Scenarios_splash"
 layers: ""
-background_media : "./img/Picture1.jpg"
+background_media : "../img/Picture1.jpg"
 main_title: "Landscape structure, the spatial pattern of landscape elements and the connections between the different ecosystems or landscape elements, plays an important and varied role in ecosystem service provision."
+main_title_fr: "La structure du paysage, la configuration spatiale des éléments du paysage et les connexions entre les différents écosystèmes ou éléments du paysage jouent un rôle important et varié dans la fourniture de services écosystémiques."
 main_description: "It is important for landscape management to take landscape structure into account to effectively manage multiple ecosystem services."
+main_description_fr: "Il est important pour la gestion du paysage de prendre en compte la structure du paysage pour gérer efficacement les multiples services écosystémiques."
 zoom: 10
 lat: 45.6
 lng: -73.2
 visible: true
 menu: true
 pretty_name: "Solutions"
+pretty_name_fr: "Solutions"

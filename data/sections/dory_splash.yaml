@@ -1,13 +1,16 @@
 weight: 15
 name: "Dory_splash"
 layers: "google_satellite"
-background_media: "./img/Dory1_wide.jpeg"
+background_media: "../img/Dory1_wide.jpeg"
 main_title: "How does forest fragmentation affect insect biodiversity in the treetops, and what are the consequences for ecosystem services in forest patches?"
+main_title_fr: "Comment la fragmentation des forêts affecte-t-elle la biodiversité des insectes à la cime des arbres, et quelles sont les conséquences pour les services écosystémiques dans les parcelles forestières ?"
 zoom: 10
 lat: 45.6
 lng: -73.2
 visible: true
 menu: true
 pretty_name: "Insects in treetops"
+pretty_name_fr: "Insectes et arbres"
 attribution: "Photo credits: Alex Tran"
 main_description: "With <a href='https://www.linkedin.com/in/dorothy-maguire-mfc-phd-emba-candidate-8669a272/' target='_blank'>Dorothy Maguire</a>"
+main_description_fr: "Avec <a href='https://www.linkedin.com/in/dorothy-maguire-mfc-phd-emba-candidate-8669a272/' target='_blank'>Dorothy Maguire</a>"

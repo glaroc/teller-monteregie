@@ -1,13 +1,16 @@
 weight: 9
 name: "Matt_splash"
 layers: "google_satellite"
-background_media : "./img/Matt_sampling.jpeg"
+background_media : "../img/Matt_sampling.jpeg"
 main_title: "How do forest fragments in the Monteregie affect ecosystem services in nearby agricultural fields?"
+main_title_fr: "Comment les fragments forestiers de la Montérégie affectent-ils les services écosystémiques des champs agricoles avoisinants ?"
 zoom: 10
 lat: 45.6
 lng: -73.2
 visible: true
 menu: true
 pretty_name: "Fragments and fields"
+pretty_name_fr: "Fragments et champs"
 attribution: "Photo credits: Alex Tran"
 main_description: "With <a href='https://mgemitchell.weebly.com/' target='_blank'>Matthew Mitchell</a>"
+main_description_fr: "Avec <a href='https://mgemitchell.weebly.com/' target='_blank'>Matthew Mitchell</a>"

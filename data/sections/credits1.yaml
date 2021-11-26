@@ -1,14 +1,13 @@
 weight: 26
 name: "Credits"
 layers: "google_satellite"
-background_media : "./img/Picture1.jpg"
+background_media : "../img/Picture1.jpg"
 zoom: 10
 lat: 45.6
 lng: -73.2
 visible: true
 init_js: "Main_map.init()"
 left_title: "The work presented here was a larger project made up of work done by a large group of graduate students, postdoctoral scholars, and undergraduates, including:"
-left_text: " <strong>Postdoctoral Scholars</strong>: Cecile Albert,Sylvestre Delmotte, Delphine Renard, and Marta Terrado.<br><br>
-<strong>Graduate students</strong>: Martine Larouche, Kate Liss, Dorothy Maguire, Matt Mitchell, Kyle Martins, and Carly Ziter<br><br>
-
-<strong>Undergraduates and technical staff include</strong>: Max Luke, Emery Hartley, Emily Pedersen, Katrina O’Kane, Tereza Jarnikova, Claudia Atomei, Thomas Nicole, Marissa Nolan, Yelena Zhimbey, Brianna Levenstein, Carhlotte Lapeyre, Piumi Abeynayaka, Natasha Salter, Natasha Dudek, Divya Sharma, Sara Saldanha, Rebekah Kipp, Shauna Mahajan, Lucie Taliana, Hsin Hui Huang, Aaron Ball, and Karine Dancose. "
+left_title_fr: "Le travail présenté ici était un projet plus vaste composé de travaux effectués par un grand groupe d'étudiants diplômés, de chercheurs postdoctoraux et d'étudiants de premier cycle, notamment :"
+left_text: " <strong>Postdoctoral Scholars</strong>: Cecile Albert,Sylvestre Delmotte, Delphine Renard, and Marta Terrado.<br><br><strong>Graduate students</strong>: Martine Larouche, Kate Liss, Dorothy Maguire, Matt Mitchell, Kyle Martins, and Carly Ziter<br><br><strong>Undergraduates and technical staff include</strong>: Max Luke, Emery Hartley, Emily Pedersen, Katrina O’Kane, Tereza Jarnikova, Claudia Atomei, Thomas Nicole, Marissa Nolan, Yelena Zhimbey, Brianna Levenstein, Carhlotte Lapeyre, Piumi Abeynayaka, Natasha Salter, Natasha Dudek, Divya Sharma, Sara Saldanha, Rebekah Kipp, Shauna Mahajan, Lucie Taliana, Hsin Hui Huang, Aaron Ball, and Karine Dancose. "
+left_text_fr: " <strong>Chercheurs postdoctoraux</strong>: Cécile Albert, Sylvestre Delmotte, Delphine Renard et Marta Terrado.<br><br><strong>Graduate students</strong>: Martine Larouche, Kate Liss, Dorothy Maguire, Matt Mitchell, Kyle Martins et Carly Ziter<br><br><strong>Les étudiants de premier cycle et le personnel technique comprennent </strong>: Max Luke, Emery Hartley, Emily Pedersen, Katrina O'Kane, Tereza Jarnikova, Claudia Atomei, Thomas Nicole, Marissa Nolan, Yelena Zhimbey, Brianna Levenstein, Carhlotte Lapeyre, Piumi Abeynayaka, Natasha Salter, Natasha Dudek, Divya Sharma, Sara Saldanha, Rebekah Kipp, Shauna Mahajan, Lucie Taliana, Hsin Hui Huang, Aaron Ball et Karine Dancose."

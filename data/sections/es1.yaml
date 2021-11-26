@@ -6,5 +6,5 @@ lat: 45.6
 lng: -73.2
 left_title: "Ecosystem Services in Montérégie"
 left_text: "This story map illustrates the multiple services provided by nature in the Montérégie region of Québec, Canada."
-left_img: "./img/1571255-10-ans-population-banlieues-auto.jpg"
+left_img: "../img/1571255-10-ans-population-banlieues-auto.jpg"
 visible: false

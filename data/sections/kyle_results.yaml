@@ -1,14 +1,17 @@
 weight: 14
 name: "Kyle_results1"
 layers: ""
-background_media : "./img/Bee_Flower.jpeg"
+background_media : "../img/Bee_Flower.jpeg"
 main_title: " "
 zoom: 12
 lat: 45.4596
 lng: -72.9876
 left_title: "Bees play a key role in orchards"
+left_title_fr: "Les abeilles jouent un rôle clé dans les vergers"
 left_text: "The amount of apples produced and the number of seeds in those apples increased with increasing functional diversity of bees. Conserving wild bee habitats near orchards can help secure crop pollination by encouraging a greater diversity of bees.<br><br> Apple fruit set and seed set was higher in orchards high more bee diversity. Complementarity between managed and unmanaged bees drove this relationship. Orchards with bee habitats (meadows, forests) nearby had higher bee diversity when crops were in bloom.<br><a href='https://doi.org/10.1016/j.agee.2014.10.018' target='_blank'>Link to scientific article</a>"
-left_img: "./img/Kyle_fig3.png"
+left_text_fr: "La quantité de pommes produites et le nombre de pépins dans ces pommes augmentaient avec l'augmentation de la diversité fonctionnelle des abeilles. La conservation des habitats des abeilles sauvages à proximité des vergers peut aider à sécuriser la pollinisation des cultures en encourageant une plus grande diversité d'abeilles.<br><br>La nouaison des pommes et la nouaison des graines étaient plus élevées dans les vergers où la diversité des abeilles était élevée. La complémentarité entre les abeilles gérées et non gérées a conduit à cette relation. Les vergers avec des habitats d'abeilles (prairies, forêts) à proximité avaient une plus grande diversité d'abeilles lorsque les cultures étaient en fleurs.
+  <a href='https://doi.org/10.1016/j.agee.2014.10.018' target='_blank'>Lien vers l'article scientifique.</a>"
+left_img: "../img/Kyle_fig3.png"
 left_wide: true
 visible: true
 left_html: ""

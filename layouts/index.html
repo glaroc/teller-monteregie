@@ -6,7 +6,12 @@
 	    <a class="navbar-brand" href="#">
 	        <!--convert the style value to a class and then add the class to the css file.-->
 	        <!--<img src="img/logo.png" class="d-inline-block align-top">-->
-	        <i class="fa fa-home" style="padding-right:10px;"></i>Montérégie Connection: Ecosystem services in an agricultural landscape 
+	        <i class="fa fa-home" style="padding-right:10px;"></i>
+	        {{ if eq $.Language.Lang "fr"}}
+	            Connexion Montérégie: Les services écosystémiques dans un paysage agricole
+	        {{ else }}
+	        	Montérégie Connection: Ecosystem services in an agricultural landscape
+	        {{ end }}
 	    </a>
 	    {{- partial "navbar.html" . -}}
 	</nav>

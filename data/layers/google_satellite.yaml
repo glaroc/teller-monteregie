@@ -5,4 +5,4 @@ base_layer: true
 options : 
   zIndex: 1
   zoomControl: false
-script_src: "../../js/main_map.js"
+script_src: "../js/main_map.js"

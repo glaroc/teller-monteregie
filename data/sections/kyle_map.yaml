@@ -5,8 +5,10 @@ zoom: 10
 lat: 45.4228
 lng: -73.186
 left_title: "Study design"
+left_title_fr: "Plan d'étude"
 left_text: "We studied the pollination of apple, blueberry and raspberry crops by wild bees at 58 orchards in the Montérégie."
-left_img: "./img/Kyle5.jpeg"
+left_text_fr: "Nous avons étudié la pollinisation des cultures de pommes, de bleuets et de framboises par les abeilles sauvages dans 58 vergers de la Montérégie."
+left_img: "../img/Kyle5.jpeg"
 visible: true
 init_js: "Kyle_map.init()"
 attribution: "Photo credits: Alex Tran"

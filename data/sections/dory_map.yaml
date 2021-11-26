@@ -5,8 +5,10 @@ zoom: 10
 lat: 45.60
 lng: -73.3
 left_title: "Study design"
+left_title_fr: "Plan d'étude"
 left_text: "We climbed to the treetops to measure insect biodiversity and feeding activity on trees in forest patches varying in size and in their connection to other patches."
-left_img: "./img/Dory3.jpeg"
+left_text_fr: "Nous sommes montés à la cime des arbres pour mesurer la biodiversité des insectes et l'activité d'alimentation des arbres dans des parcelles forestières de tailles variables et dans leurs liens avec d'autres parcelles."
+left_img: "../img/Dory3.jpeg"
 visible: true
 init_js: "Dory_map.init()"
 attribution: "Photo credits: Alex Tran"

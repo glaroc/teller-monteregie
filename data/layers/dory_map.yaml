@@ -13,4 +13,4 @@ style:
   fillColor: '#99c63d'
   stroke: true
   strokeOpacity: 1
-script_src: "../../js/dory_map.js"
+script_src: "../js/dory_map.js"

@@ -1,8 +1,9 @@
 weight: 12
 name: "Kyle_splash"
 layers: "google_satellite"
-background_media : "./img/Kyle6.jpeg"
+background_media : "../img/Kyle6.jpeg"
 main_title: "Do wild bees promote pollination and fruit production in orchards? <br>Which near-orchard habitats are most important for apple-pollinating bees?"
+main_title_fr: "Les abeilles sauvages favorisent-elles la pollinisation et la production de fruits dans les vergers ?<br>Quels habitats à proximité du verger sont les plus importants pour les abeilles pollinisatrices de pommiers ?"
 zoom: 10
 lat: 45.6
 lng: -73.2
@@ -10,5 +11,7 @@ visible: true
 init_js: "Kyle_map.init()"
 menu: true
 pretty_name: "Bees and orchards"
+pretty_name_fr: "Abeilles et vergers"
 attribution: "Photo credits: Alex Tran"
 main_description: "With <a href='https://www.habitat-nature.com/our-team' target='_blank'>Kyle Martins</a>"
+main_description_fr: "Avec <a href='https://www.habitat-nature.com/our-team' target='_blank'>Kyle Martins</a>"

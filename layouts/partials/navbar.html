@@ -2,8 +2,18 @@
 <ul class="sections-nav navbar-nav">
 {{ range $index, $section := sort .Site.Data.sections "weight" }}
  {{if $section.menu}}
-	<li class="nav-item nav-{{ $section.name }}" section-name="{{ $section.name }}"><a class="nav-link ml-auto" href="javascript:window.scrollBy(0, $('section[data-scene=\'{{ $section.name }}\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">{{ $section.pretty_name }}</a></li>
+	<li class="nav-item nav-{{ $section.name }}" section-name="{{ $section.name }}"><a class="nav-link ml-auto" href="javascript:window.scrollBy(0, $('section[data-scene=\'{{ $section.name }}\']').offset().top - $(window).scrollTop() - $('.storymap-navbar').height() - 30);">
+     {{ if eq $.Language.Lang "fr"}}
+     	{{ $section.pretty_name_fr }}
+     {{ else }}
+     	{{ $section.pretty_name }}
+ 	 {{ end }}</a></li>
  {{end}}
 {{end}}
+	{{ if eq $.Language.Lang "fr"}}
+		<li class="nav-item nav-lang"><a class="nav-link ml-auto" href="../en">English</a>
+	{{ else }}
+		<li class="nav-item nav-lang"><a class="nav-link ml-auto" href="../fr">Français</a>
+	{{ end}}
 </ul>
 </div>

@@ -5,7 +5,10 @@ zoom: 12
 lat: 45.7
 lng: -73.35
 left_title: "Ecosystem services, distance from forests and isolation"
+left_title_fr: "Services écosystémiques, éloignement des forêts et isolement"
 left_text: " Ecosystem services were affected by both distance-from-forest and the degree to which the forest fragment was isolated from other woodlots. This highlights the importance of actively managing forest fragments and considering location on the landscape to increase the multiple benefits of woodlots in agricultural landscapes.<br><br>Each ecosystem service showed its own distinct pattern of provision as landscape structure varied, thus providing evidence that landscape heterogeneity — the variety of forest and field types present in the landscape — is critical to ensure the provision of multiple ecosystem services.<br><a href='https://doi.org/10.1007/s00442-014-3061-0' target='_blank'>Link to scientific article</a>"
-left_img: "./img/Matt_fig2.jpg"
+left_text_fr: "Les services écosystémiques ont été affectés à la fois par la distance de la forêt et par le degré d'isolement du fragment de forêt des autres boisés. Cela met en évidence l'importance de gérer activement les fragments de forêt et de considérer l'emplacement dans le paysage pour augmenter les multiples avantages des boisés dans les paysages agricoles.<br><br>Chaque service écosystémique a montré son propre modèle distinct de fourniture à mesure que la structure du paysage variait, fournissant ainsi la preuve que l'hétérogénéité du paysage - la variété des types de forêts et de champs présents dans le paysage - est essentielle pour assurer la fourniture de multiples services écosystémiques.<br><br>
+  <a href='https://doi.org/10.1007/s00442-014-3061-0' target='_blank'>Lien vers l'article scientifique.</a>"
+left_img: "../img/Matt_fig2.jpg"
 visible: true
 init_js: "Matt_map.init()"

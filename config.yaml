@@ -1,3 +1,8 @@
+themesDir: "../.."
+baseURL: "https://apps.nsercresnet.ca/story/monteregie/"
+canonifyURLs: false
+defaultContentLanguage : "en"
+defaultContentLanguageInSubdir : true
 languages:
   en:
     languageName: English
@@ -5,4 +10,3 @@ languages:
   fr:
     languageName: Français
     weight: 2
-relativeURLs: true
